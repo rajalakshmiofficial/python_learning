@@ -1,0 +1,31 @@
+we will be learning about iterators and iterables. There is a lot of confusion around these terms and exactly what they mean. We're also going to learn how to make an object ourselves that is both an iterable and an iterator. This video isn't only about understanding these definitions. It's also about understanding the concepts of iterators so that you can write better code. Understanding these underlying concepts is going to help you write code that is more efficient and will also help you see solutions to certain problems in a way you might not have thought of before
+
+
+
+
+iterator means you can loop over it example list,tuples,dictionaries
+double method/magic method/dunder method
+dir(num)---it will give lot of methods and attributes one of them is iter meaning something can be looped over
+list is iterable but it is not itreator
+iterator is a object with a state iterator know the state where it is during iteration and iterator also know how to get a next value(dunder method)
+list dont have a state so it dont know how to get a next value
+when we give next method in backgroud it runs dunder next method so list does not have a dunder next method
+advantage= we can add iter method in our own class to make it iterable
+
+
+
+
+
+
+To create iterator we use iter() and to generator we use function along with yield keyword
+Generator uses the yield keyword. It saves the local variable
+Generator in python helps us top write fast and compact code
+Python iterator is much more memory efficient
+
+generator itself iterator
+when use next,you know iterator have a state it knows/remeber where it left off in the iteration if  there is no out of values then it raises stopiterable exception
+next use---we get one value only at a time
+
+
+https://www.scaler.com/topics/python/iterators-in-python/
+https://www.simplilearn.com/tutorials/python-tutorial/iterator-in-python

@@ -1,0 +1,10 @@
+string----string of connected characters with in double quotes, stringconcatenation--simply takes separare strings of characters and merging them into one using + operator
+python pgm spaces are really important
+tip----enable code intelligence in text editor it helps us to complete function if we make any mistake it will tell
+variable--by using variable name we can refer the data in future(used to view action of result later on)
+exm---no later use=>input('enter')   later use=>a=input('enter') , a
+variable----piece of dataku naming panroam
+nameerror---misspellet or mistyped
+ when the name of the variable was (before) used it was not spelt the same, you will get a name error.
+ name=a  print(nam)---nameerror varum
+

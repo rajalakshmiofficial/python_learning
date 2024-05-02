@@ -1,0 +1,3 @@
+use of generators(yield method and list comprehension) is used to save memory usge and gives results(runtime) is very fast.
+generator operator one element in a memory
+when we use yield to print all resuts we need another for loop function
